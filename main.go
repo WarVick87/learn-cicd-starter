@@ -98,8 +98,3 @@ func main() {
 	log.Println("Serving on port: " + port) //#nosec G706
 	log.Fatal(srv.ListenAndServe())
 }
-
-func unused() {
-	// this function does nothing
-	// and is called nowhere
-}
